@@ -89,7 +89,7 @@ is clicked display:flex*/
   background-color: lightsalmon;
 }
 
-.text-area {
+.issue-text-area {
   height: 100%;
   width: 100%;
   background-color: beige;
@@ -110,7 +110,7 @@ is clicked display:flex*/
 
 
 .ticket-cont{
-    height: 15rem;
+    height: 17rem;
     width:13rem;
     background-color: lightseagreen;
     display: flex;
@@ -120,6 +120,8 @@ is clicked display:flex*/
 
 .ticket-options{
     background-color: lightcoral;
+    height:2rem;
+    width:13rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -128,7 +130,7 @@ is clicked display:flex*/
 .priority-color{
     height:2rem;
     width:13rem;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 
 .ticket-content{
@@ -137,9 +139,22 @@ is clicked display:flex*/
     width:13rem;
     background-color: lightgray;
 }
-
-.ticket-options{
+.ticket-id{
+    height:2rem;
+    width:13rem;
+    background-color: lightskyblue;
+}
+/* .ticket-options{
     height:2rem;
     width:13rem;
     background-color: lightblue;
+} */
+
+
+.all-tickets-cont{
+    margin-top:2rem;
+    display: flex;
+    flex-wrap:wrap;
+    gap:1rem;
+    align-items: center;
 }
