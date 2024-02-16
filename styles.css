@@ -130,7 +130,7 @@ is clicked display:flex*/
 .priority-color{
     height:2rem;
     width:13rem;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 
 .ticket-content{
